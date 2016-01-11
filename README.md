@@ -1,10 +1,8 @@
-Unity-Delaunay
+Unity-polygon-map-generation
 ==============
 
-Voronoi diagrams, Delaunay triangulation, minimum spanning graphs, convex hull and more. Ported to C# for use in the Unity game engine from https://github.com/nodename/as3delaunay.
-
-![Delaunay Triangulation](triangulation.png)
-![Spanning Graph Example](spanning_graph.png)
+Voronoi diagrams, Delaunay triangulation, minimum spanning graphs, convex hull and more. 
+Ported to C# for use in the Unity game engine from https://github.com/amitp/mapgen2
 
 ### Features: ###
 
@@ -14,5 +12,4 @@ Voronoi diagrams, Delaunay triangulation, minimum spanning graphs, convex hull a
  - [Minimum spanning tree](http://en.wikipedia.org/wiki/Euclidean_minimum_spanning_tree)
  - [Onion](http://cgm.cs.mcgill.ca/~orm/ontri.html)
 
-MIT licensed, like the original.
-Check out the original project page [here](http://nodename.github.com/as3delaunay/).
+Check out the original project page [here](https://github.com/amitp/mapgen2).

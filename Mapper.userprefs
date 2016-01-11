@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MapDraw.cs">
+    <Files>
+      <File FileName="Assets\Scripts\MapDraw.cs" Line="101" Column="5" />
+      <File FileName="Assets\Scripts\Map.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RoadsSpanningTree.cs" Line="59" Column="45" />
+      <File FileName="Assets\Scripts\Roads.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

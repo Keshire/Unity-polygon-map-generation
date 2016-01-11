@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92DA193A-802D-5C80-8C7F-2DDF6089ADD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>5.3.0f4</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_IL2CPP;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Vectrosity">
+      <HintPath>Assets\Plugins\Vectrosity\Vectrosity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Delaunay\Edge.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\EdgeList.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\EdgeReorderer.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\Halfedge.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\HalfedgePriorityQueue.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\ICoord.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\LR.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\Site.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\SiteList.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\Triangle.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\Vertex.cs" />
+    <Compile Include="Assets\Scripts\Delaunay\Voronoi.cs" />
+    <Compile Include="Assets\Scripts\Extensions\Random.cs" />
+    <Compile Include="Assets\Scripts\Geom\Circle.cs" />
+    <Compile Include="Assets\Scripts\Geom\LineSegment.cs" />
+    <Compile Include="Assets\Scripts\Geom\Point.cs" />
+    <Compile Include="Assets\Scripts\Geom\Polygon.cs" />
+    <Compile Include="Assets\Scripts\Geom\Rectf.cs" />
+    <Compile Include="Assets\Scripts\Geom\Vector2f.cs" />
+    <Compile Include="Assets\Scripts\Geom\Winding.cs" />
+    <Compile Include="Assets\Scripts\Graphs\graphs.cs" />
+    <Compile Include="Assets\Scripts\Lava.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
+    <Compile Include="Assets\Scripts\MapDraw.cs" />
+    <Compile Include="Assets\Scripts\NoisyEdges.cs" />
+    <Compile Include="Assets\Scripts\Roads.cs" />
+    <Compile Include="Assets\Scripts\RoadsSpanningTree.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Billow.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Checker.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Const.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Cylinders.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Perlin.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\RidgedMultifractal.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Spheres.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Generator\Voronoi.cs" />
+    <Compile Include="Assets\Scripts\libnoise\GradientPresets.cs" />
+    <Compile Include="Assets\Scripts\libnoise\ModuleBase.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Noise2D.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Abs.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Add.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Blend.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Cache.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Clamp.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Curve.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Displace.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Exponent.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Invert.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Max.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Min.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Multiply.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Power.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Rotate.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Scale.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\ScaleBias.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Select.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Subtract.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Terrace.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Translate.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Operator\Turbulence.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Scripts\libnoise\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\libnoise\COPYING.LESSER.txt" />
+    <None Include="Assets\Scripts\libnoise\COPYING.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
